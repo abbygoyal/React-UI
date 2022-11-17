@@ -1,0 +1,28 @@
+.glowing-parent {
+  height: 100vh;
+  background-color: black;
+}
+.glowing-text-part {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.glowing-text-part h1 {
+  font-size: 100px;
+  width: 100%;
+  -webkit-text-stroke: 1px rgb(255, 255, 255, 0.445);
+}
+.glowing-text-part:hover {
+  cursor: pointer;
+  color: white !important;
+  text-shadow: 3px 3px 15px !important;
+}
+@media screen and (max-width: 600px) {
+  .glowing-text-part h1 {
+    font-size: 40px;
+    width: 100%;
+    -webkit-text-stroke: 1px rgb(255, 255, 255, 0.445);
+  }
+}
