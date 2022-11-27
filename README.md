@@ -1,6 +1,6 @@
-## Monsters-rolodex-complete
+## React-UI-complete
 
-The completed version of our monsters rolodex project!
+The completed version of our React-UI-complete project!
 
 # How to fork and clone
 
